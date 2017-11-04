@@ -12,6 +12,8 @@
 		5D11D80F1F9BC61D00A15959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D11D80D1F9BC61D00A15959 /* Main.storyboard */; };
 		5D11D8111F9BC61D00A15959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D11D8101F9BC61D00A15959 /* Assets.xcassets */; };
 		5D11D8141F9BC61D00A15959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D11D8121F9BC61D00A15959 /* LaunchScreen.storyboard */; };
+		5D11D81E1F9BCABF00A15959 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D11D81D1F9BCABF00A15959 /* ItemCollectionViewCell.swift */; };
+		5DC5E79F1F9BD1EB0021481F /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC5E79E1F9BD1EB0021481F /* Models.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5D11D8101F9BC61D00A15959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D11D8131F9BC61D00A15959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D11D8151F9BC61D00A15959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D11D81D1F9BCABF00A15959 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		5DC5E79E1F9BD1EB0021481F /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		5D11D8081F9BC61D00A15959 /* Ikea */ = {
 			isa = PBXGroup;
 			children = (
+				5D11D81D1F9BCABF00A15959 /* ItemCollectionViewCell.swift */,
 				5D11D8091F9BC61D00A15959 /* AppDelegate.swift */,
 				5D11D80B1F9BC61D00A15959 /* ViewController.swift */,
 				5D11D80D1F9BC61D00A15959 /* Main.storyboard */,
+				5DC5E79E1F9BD1EB0021481F /* Models.scnassets */,
 				5D11D8101F9BC61D00A15959 /* Assets.xcassets */,
 				5D11D8121F9BC61D00A15959 /* LaunchScreen.storyboard */,
 				5D11D8151F9BC61D00A15959 /* Info.plist */,
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D11D8141F9BC61D00A15959 /* LaunchScreen.storyboard in Resources */,
+				5DC5E79F1F9BD1EB0021481F /* Models.scnassets in Resources */,
 				5D11D8111F9BC61D00A15959 /* Assets.xcassets in Resources */,
 				5D11D80F1F9BC61D00A15959 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D11D81E1F9BCABF00A15959 /* ItemCollectionViewCell.swift in Sources */,
 				5D11D80C1F9BC61D00A15959 /* ViewController.swift in Sources */,
 				5D11D80A1F9BC61D00A15959 /* AppDelegate.swift in Sources */,
 			);
@@ -277,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66H4JCAA7P;
 				INFOPLIST_FILE = Ikea/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Demick.McMullin.Ikea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66H4JCAA7P;
 				INFOPLIST_FILE = Ikea/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Demick.McMullin.Ikea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
